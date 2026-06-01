@@ -1,0 +1,12 @@
+{
+  "name": "hotelskansen-feed",
+  "version": "1.0.0",
+  "description": "Facebook Dynamic Ads feed generator for Hotel Skansen packages (paket)",
+  "main": "generate-feed.js",
+  "scripts": {
+    "generate": "node generate-feed.js"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5"
+  }
+}
