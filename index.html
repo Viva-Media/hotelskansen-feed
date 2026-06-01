@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <title>Hotel Skansen Facebook Feed</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 820px; margin: 50px auto; padding: 20px; }
+    h1 { color: #333; }
+    .feed-url { background: #e8f5e9; padding: 15px; border-radius: 5px; margin: 20px 0; word-break: break-all; }
+    code { background: #f5f5f5; padding: 2px 6px; border-radius: 3px; }
+    table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; font-size: 14px; }
+    th { background: #f0f0f0; }
+  </style>
+</head>
+<body>
+  <h1>Hotel Skansen — Facebook Dynamic Ads Feed</h1>
+  <div class="feed-url">
+    <strong>Use this URL in Facebook Commerce Manager:</strong><br><br>
+    <code id="feedUrl">Loading...</code>
+  </div>
+  <p>Packages in feed: <strong>20</strong> &nbsp;|&nbsp; skipped (no price): <strong>1</strong></p>
+  <ul>
+    <li><a href="feed.xml">View XML feed</a></li>
+    <li><a href="feed.csv">View CSV feed</a></li>
+  </ul>
+  <table>
+    <tr><th>Package</th><th>From price</th><th>Category</th></tr>
+    <tr><td>Afterwork med relax</td><td>249 SEK</td><td>Spa &amp; dagpaket</td></tr>
+<tr><td>Golfpaket</td><td>1640 SEK</td><td>Övernattningspaket</td></tr>
+<tr><td>Dagsmys</td><td>715 SEK</td><td>Spa &amp; dagpaket</td></tr>
+<tr><td>Kvällslyx</td><td>1150 SEK</td><td>Spa &amp; dagpaket</td></tr>
+<tr><td>Seniorspa</td><td>280 SEK</td><td>Spa &amp; dagpaket</td></tr>
+<tr><td>Midsommarpaket</td><td>850 SEK</td><td>Övernattningspaket</td></tr>
+<tr><td>Minisemester 3 nätter</td><td>1500 SEK</td><td>Övernattningspaket</td></tr>
+<tr><td>Spapaket för grupper</td><td>580 SEK</td><td>Paket</td></tr>
+<tr><td>Mord &amp; Mystik</td><td>1750 SEK</td><td>Övernattningspaket</td></tr>
+<tr><td>Morgonmys</td><td>349 SEK</td><td>Spa &amp; dagpaket</td></tr>
+<tr><td>Skansenpaket</td><td>1295 SEK</td><td>Övernattningspaket</td></tr>
+<tr><td>Sköna söndag</td><td>1110 SEK</td><td>Övernattningspaket</td></tr>
+<tr><td>Dagslyx</td><td>1045 SEK</td><td>Spa &amp; dagpaket</td></tr>
+<tr><td>Heldag må bra</td><td>1295 SEK</td><td>Spa &amp; dagpaket</td></tr>
+<tr><td>Kvällsmys</td><td>950 SEK</td><td>Spa &amp; dagpaket</td></tr>
+<tr><td>Spapaket Lycka</td><td>2405 SEK</td><td>Övernattningspaket</td></tr>
+<tr><td>Spaentré med/utan lunch</td><td>320 SEK</td><td>Spa &amp; dagpaket</td></tr>
+<tr><td>Tingshuspaket</td><td>1510 SEK</td><td>Övernattningspaket</td></tr>
+<tr><td>Vinprovningspaket</td><td>1930 SEK</td><td>Övernattningspaket</td></tr>
+<tr><td>Whiskypaket</td><td>1750 SEK</td><td>Övernattningspaket</td></tr>
+  </table>
+  <script>
+    document.getElementById('feedUrl').textContent =
+      window.location.origin + window.location.pathname.replace(/index\.html$/, '') + 'feed.xml';
+  </script>
+</body>
+</html>
