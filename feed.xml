@@ -7,19 +7,11 @@
     <item>
       <g:id>afterwork-med-relax</g:id>
       <g:title>Afterwork med relax</g:title>
-      <title>Afterwork med relax</title>
       <g:description>Upplev en skön after work varje onsdag hos oss. Paketet inkluderar entré, badrock, tofflor, handduk, en smakrik kycklingwrap för endast 249 SEK/person.</g:description>
-      <description>Upplev en skön after work varje onsdag hos oss. Paketet inkluderar entré, badrock, tofflor, handduk, en smakrik kycklingwrap för endast 249 SEK/person.</description>
       <g:link>https://www.hotelskansen.com/paket/afterwork-med-relax/</g:link>
-      <link>https://www.hotelskansen.com/paket/afterwork-med-relax/</link>
       <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/afterwork-med-relax.jpg</g:image_link>
-      <image>
-        <url>https://viva-media.github.io/hotelskansen-feed/images/afterwork-med-relax.jpg</url>
-      </image>
-      <g:price>249 SEK</g:price>
-      <price>249 SEK</price>
       <g:availability>in stock</g:availability>
-      <availability>in stock</availability>
+      <g:price>249 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
       <g:custom_label_0>Spa &amp; dagpaket</g:custom_label_0>
@@ -27,19 +19,11 @@
     <item>
       <g:id>golfpaket</g:id>
       <g:title>Golfpaket</g:title>
-      <title>Golfpaket</title>
       <g:description>Upplev det ultimata golfpaketet på Öland med Hotel Skansen: Spela på Saxnäs GK. Inkluderar greenfee, övernattning, mousserande vin och gourmetmiddagar.</g:description>
-      <description>Upplev det ultimata golfpaketet på Öland med Hotel Skansen: Spela på Saxnäs GK. Inkluderar greenfee, övernattning, mousserande vin och gourmetmiddagar.</description>
       <g:link>https://www.hotelskansen.com/paket/golfpaket/</g:link>
-      <link>https://www.hotelskansen.com/paket/golfpaket/</link>
       <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/golfpaket.jpg</g:image_link>
-      <image>
-        <url>https://viva-media.github.io/hotelskansen-feed/images/golfpaket.jpg</url>
-      </image>
-      <g:price>1640 SEK</g:price>
-      <price>1640 SEK</price>
       <g:availability>in stock</g:availability>
-      <availability>in stock</availability>
+      <g:price>1640 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
       <g:custom_label_0>Övernattningspaket</g:custom_label_0>
@@ -47,19 +31,11 @@
     <item>
       <g:id>halvdag-1</g:id>
       <g:title>Dagsmys</g:title>
-      <title>Dagsmys</title>
       <g:description>Njut av en halvdagsvistelse för 715 SEK/person, som inkluderar badrock, handduk, tofflor, entré till relaxen, lunch och en 25-minuters behandling.</g:description>
-      <description>Njut av en halvdagsvistelse för 715 SEK/person, som inkluderar badrock, handduk, tofflor, entré till relaxen, lunch och en 25-minuters behandling.</description>
       <g:link>https://www.hotelskansen.com/paket/halvdag-1/</g:link>
-      <link>https://www.hotelskansen.com/paket/halvdag-1/</link>
       <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/halvdag-1.jpg</g:image_link>
-      <image>
-        <url>https://viva-media.github.io/hotelskansen-feed/images/halvdag-1.jpg</url>
-      </image>
-      <g:price>715 SEK</g:price>
-      <price>715 SEK</price>
       <g:availability>in stock</g:availability>
-      <availability>in stock</availability>
+      <g:price>715 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
       <g:custom_label_0>Spa &amp; dagpaket</g:custom_label_0>
@@ -67,19 +43,11 @@
     <item>
       <g:id>kvallsmys-50-min</g:id>
       <g:title>Kvällslyx</g:title>
-      <title>Kvällslyx</title>
       <g:description>Lyxigt Kvällsmys 2 för 1150 kr/person: Inkluderar badrock, handduk, tofflor, relaxentré, välkomstdrink, 2-rätters middag och 50 min valfri behandling.</g:description>
-      <description>Lyxigt Kvällsmys 2 för 1150 kr/person: Inkluderar badrock, handduk, tofflor, relaxentré, välkomstdrink, 2-rätters middag och 50 min valfri behandling.</description>
       <g:link>https://www.hotelskansen.com/paket/kvallsmys-50-min/</g:link>
-      <link>https://www.hotelskansen.com/paket/kvallsmys-50-min/</link>
       <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/kvallsmys-50-min.jpg</g:image_link>
-      <image>
-        <url>https://viva-media.github.io/hotelskansen-feed/images/kvallsmys-50-min.jpg</url>
-      </image>
-      <g:price>1150 SEK</g:price>
-      <price>1150 SEK</price>
       <g:availability>in stock</g:availability>
-      <availability>in stock</availability>
+      <g:price>1150 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
       <g:custom_label_0>Spa &amp; dagpaket</g:custom_label_0>
@@ -87,19 +55,11 @@
     <item>
       <g:id>mandagsspa-for-seniorer</g:id>
       <g:title>Seniorspa</g:title>
-      <title>Seniorspa</title>
       <g:description>Måndagsspa för seniorer: Tillgång till relax, inklusive handduk och lunch, för 280 kr/person. Njut av en avkopplande dag mellan 09.00-15.00.</g:description>
-      <description>Måndagsspa för seniorer: Tillgång till relax, inklusive handduk och lunch, för 280 kr/person. Njut av en avkopplande dag mellan 09.00-15.00.</description>
       <g:link>https://www.hotelskansen.com/paket/mandagsspa-for-seniorer/</g:link>
-      <link>https://www.hotelskansen.com/paket/mandagsspa-for-seniorer/</link>
       <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/mandagsspa-for-seniorer.jpg</g:image_link>
-      <image>
-        <url>https://viva-media.github.io/hotelskansen-feed/images/mandagsspa-for-seniorer.jpg</url>
-      </image>
-      <g:price>280 SEK</g:price>
-      <price>280 SEK</price>
       <g:availability>in stock</g:availability>
-      <availability>in stock</availability>
+      <g:price>280 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
       <g:custom_label_0>Spa &amp; dagpaket</g:custom_label_0>
@@ -107,19 +67,11 @@
     <item>
       <g:id>midsommarpaketet</g:id>
       <g:title>Midsommarpaket</g:title>
-      <title>Midsommarpaket</title>
       <g:description>Fira midsommar på Öland med vårt Midsommarpaket: Njut av midsommarkaka, 3-rätters middag och härlig atmosfär. Perfekt för familjer och vänner.</g:description>
-      <description>Fira midsommar på Öland med vårt Midsommarpaket: Njut av midsommarkaka, 3-rätters middag och härlig atmosfär. Perfekt för familjer och vänner.</description>
       <g:link>https://www.hotelskansen.com/paket/midsommarpaketet/</g:link>
-      <link>https://www.hotelskansen.com/paket/midsommarpaketet/</link>
       <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/midsommarpaketet.jpg</g:image_link>
-      <image>
-        <url>https://viva-media.github.io/hotelskansen-feed/images/midsommarpaketet.jpg</url>
-      </image>
-      <g:price>850 SEK</g:price>
-      <price>850 SEK</price>
       <g:availability>in stock</g:availability>
-      <availability>in stock</availability>
+      <g:price>850 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
       <g:custom_label_0>Övernattningspaket</g:custom_label_0>
@@ -127,19 +79,11 @@
     <item>
       <g:id>minisemester-3-natter</g:id>
       <g:title>Minisemester 3 nätter</g:title>
-      <title>Minisemester 3 nätter</title>
       <g:description>Unna dig en tre-dagars minisemester på Öland och låt vardagsstressen sväva bort. Lyxiga tvårätters middagar, bubblande välkomstdrinkar och SPA.</g:description>
-      <description>Unna dig en tre-dagars minisemester på Öland och låt vardagsstressen sväva bort. Lyxiga tvårätters middagar, bubblande välkomstdrinkar och SPA.</description>
       <g:link>https://www.hotelskansen.com/paket/minisemester-3-natter/</g:link>
-      <link>https://www.hotelskansen.com/paket/minisemester-3-natter/</link>
       <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/minisemester-3-natter.jpg</g:image_link>
-      <image>
-        <url>https://viva-media.github.io/hotelskansen-feed/images/minisemester-3-natter.jpg</url>
-      </image>
-      <g:price>1500 SEK</g:price>
-      <price>1500 SEK</price>
       <g:availability>in stock</g:availability>
-      <availability>in stock</availability>
+      <g:price>1500 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
       <g:custom_label_0>Övernattningspaket</g:custom_label_0>
@@ -147,19 +91,11 @@
     <item>
       <g:id>mohippa-svensexa-kompisgang-foretagshang</g:id>
       <g:title>Spapaket för grupper</g:title>
-      <title>Spapaket för grupper</title>
       <g:description>Fira med vänner eller kollegor i vår relaxavdelning. Inkluderar badrock, handduk, tofflor, 1 dryck och snacks fr. 580 kr/person. För grupper om minst 5.</g:description>
-      <description>Fira med vänner eller kollegor i vår relaxavdelning. Inkluderar badrock, handduk, tofflor, 1 dryck och snacks fr. 580 kr/person. För grupper om minst 5.</description>
       <g:link>https://www.hotelskansen.com/paket/mohippa-svensexa-kompisgang-foretagshang/</g:link>
-      <link>https://www.hotelskansen.com/paket/mohippa-svensexa-kompisgang-foretagshang/</link>
       <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/mohippa-svensexa-kompisgang-foretagshang.jpg</g:image_link>
-      <image>
-        <url>https://viva-media.github.io/hotelskansen-feed/images/mohippa-svensexa-kompisgang-foretagshang.jpg</url>
-      </image>
-      <g:price>580 SEK</g:price>
-      <price>580 SEK</price>
       <g:availability>in stock</g:availability>
-      <availability>in stock</availability>
+      <g:price>580 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
       <g:custom_label_0>Paket</g:custom_label_0>
@@ -167,19 +103,11 @@
     <item>
       <g:id>mord-mystik</g:id>
       <g:title>Mord &amp; Mystik</g:title>
-      <title>Mord &amp; Mystik</title>
       <g:description>Middagsmordet 10 oktober Den populära mordgåtan från i höst är tillbaka! Den 10 oktober är ni välkomna till en klassisk mordhistoria på hotellet. Festdeltagarna samlas, champagneglasen klingar och du befinner dig i händelsernas centrum. Framfört av professionella skådespelare från Loungeteatern kommer du tas med på en middagsmordgåta som du sent kommer att glömma. Vem har [&amp;hellip;]</g:description>
-      <description>Middagsmordet 10 oktober Den populära mordgåtan från i höst är tillbaka! Den 10 oktober är ni välkomna till en klassisk mordhistoria på hotellet. Festdeltagarna samlas, champagneglasen klingar och du befinner dig i händelsernas centrum. Framfört av professionella skådespelare från Loungeteatern kommer du tas med på en middagsmordgåta som du sent kommer att glömma. Vem har [&amp;hellip;]</description>
       <g:link>https://www.hotelskansen.com/paket/mord-mystik/</g:link>
-      <link>https://www.hotelskansen.com/paket/mord-mystik/</link>
       <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/mord-mystik.jpg</g:image_link>
-      <image>
-        <url>https://viva-media.github.io/hotelskansen-feed/images/mord-mystik.jpg</url>
-      </image>
-      <g:price>1750 SEK</g:price>
-      <price>1750 SEK</price>
       <g:availability>in stock</g:availability>
-      <availability>in stock</availability>
+      <g:price>1750 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
       <g:custom_label_0>Övernattningspaket</g:custom_label_0>
@@ -187,19 +115,11 @@
     <item>
       <g:id>morgonmys</g:id>
       <g:title>Morgonmys</g:title>
-      <title>Morgonmys</title>
       <g:description>En Perfekt Start på Dagen Ge dig själv en paus från vardagen med vårt exklusiva spapaket Morgonmys. Börja dagen på bästa sätt med en härlig frukost och fortsätt sedan njuta av en rofylld förmiddag i vår relaxavdelning – det perfekta sättet att ladda upp med ny energi. I paketet ingår: Frukostbuffé (på vardagar serveras den 6.30-09.30, [&amp;hellip;]</g:description>
-      <description>En Perfekt Start på Dagen Ge dig själv en paus från vardagen med vårt exklusiva spapaket Morgonmys. Börja dagen på bästa sätt med en härlig frukost och fortsätt sedan njuta av en rofylld förmiddag i vår relaxavdelning – det perfekta sättet att ladda upp med ny energi. I paketet ingår: Frukostbuffé (på vardagar serveras den 6.30-09.30, [&amp;hellip;]</description>
       <g:link>https://www.hotelskansen.com/paket/morgonmys/</g:link>
-      <link>https://www.hotelskansen.com/paket/morgonmys/</link>
       <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/morgonmys.jpg</g:image_link>
-      <image>
-        <url>https://viva-media.github.io/hotelskansen-feed/images/morgonmys.jpg</url>
-      </image>
-      <g:price>349 SEK</g:price>
-      <price>349 SEK</price>
       <g:availability>in stock</g:availability>
-      <availability>in stock</availability>
+      <g:price>349 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
       <g:custom_label_0>Spa &amp; dagpaket</g:custom_label_0>
@@ -207,19 +127,11 @@
     <item>
       <g:id>skansenpaket</g:id>
       <g:title>Skansenpaket</g:title>
-      <title>Skansenpaket</title>
       <g:description>Upplev Skansenpaketet på Hotel Skansen. Njut av en natt med lyxigt boende, mousserande vin, trerätters middag, och Ölands charm.</g:description>
-      <description>Upplev Skansenpaketet på Hotel Skansen. Njut av en natt med lyxigt boende, mousserande vin, trerätters middag, och Ölands charm.</description>
       <g:link>https://www.hotelskansen.com/paket/skansenpaket/</g:link>
-      <link>https://www.hotelskansen.com/paket/skansenpaket/</link>
       <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/skansenpaket.jpg</g:image_link>
-      <image>
-        <url>https://viva-media.github.io/hotelskansen-feed/images/skansenpaket.jpg</url>
-      </image>
-      <g:price>1295 SEK</g:price>
-      <price>1295 SEK</price>
       <g:availability>in stock</g:availability>
-      <availability>in stock</availability>
+      <g:price>1295 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
       <g:custom_label_0>Övernattningspaket</g:custom_label_0>
@@ -227,19 +139,11 @@
     <item>
       <g:id>skona-sondag</g:id>
       <g:title>Sköna söndag</g:title>
-      <title>Sköna söndag</title>
       <g:description>Njut av en skön söndag på Hotel Skansen. Inkluderar tillgång till relax, sen utcheckning, välkomstdrink, 2-rätters middag, och frukost.</g:description>
-      <description>Njut av en skön söndag på Hotel Skansen. Inkluderar tillgång till relax, sen utcheckning, välkomstdrink, 2-rätters middag, och frukost.</description>
       <g:link>https://www.hotelskansen.com/paket/skona-sondag/</g:link>
-      <link>https://www.hotelskansen.com/paket/skona-sondag/</link>
       <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/skona-sondag.jpg</g:image_link>
-      <image>
-        <url>https://viva-media.github.io/hotelskansen-feed/images/skona-sondag.jpg</url>
-      </image>
-      <g:price>1110 SEK</g:price>
-      <price>1110 SEK</price>
       <g:availability>in stock</g:availability>
-      <availability>in stock</availability>
+      <g:price>1110 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
       <g:custom_label_0>Övernattningspaket</g:custom_label_0>
@@ -247,19 +151,11 @@
     <item>
       <g:id>spa-paket-halvdag-2</g:id>
       <g:title>Dagslyx</g:title>
-      <title>Dagslyx</title>
       <g:description>Skäm bort dig med en lyxig halvdag för 1045 SEK/person, inklusive lån av badrock, handduk, tofflor och entré till vår relax, 50-minuters behandling och lunch.</g:description>
-      <description>Skäm bort dig med en lyxig halvdag för 1045 SEK/person, inklusive lån av badrock, handduk, tofflor och entré till vår relax, 50-minuters behandling och lunch.</description>
       <g:link>https://www.hotelskansen.com/paket/spa-paket-halvdag-2/</g:link>
-      <link>https://www.hotelskansen.com/paket/spa-paket-halvdag-2/</link>
       <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/spa-paket-halvdag-2.jpg</g:image_link>
-      <image>
-        <url>https://viva-media.github.io/hotelskansen-feed/images/spa-paket-halvdag-2.jpg</url>
-      </image>
-      <g:price>1045 SEK</g:price>
-      <price>1045 SEK</price>
       <g:availability>in stock</g:availability>
-      <availability>in stock</availability>
+      <g:price>1045 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
       <g:custom_label_0>Spa &amp; dagpaket</g:custom_label_0>
@@ -267,19 +163,11 @@
     <item>
       <g:id>spa-paket-heldag-ma-bra</g:id>
       <g:title>Heldag må bra</g:title>
-      <title>Heldag må bra</title>
       <g:description>Njut av en heldag som får dig att må bra för 1295 kr/person. Inkluderar badrock, handduk, tofflor, tillgång till vår relax, lunch, och två 25-minuters behandlingar.</g:description>
-      <description>Njut av en heldag som får dig att må bra för 1295 kr/person. Inkluderar badrock, handduk, tofflor, tillgång till vår relax, lunch, och två 25-minuters behandlingar.</description>
       <g:link>https://www.hotelskansen.com/paket/spa-paket-heldag-ma-bra/</g:link>
-      <link>https://www.hotelskansen.com/paket/spa-paket-heldag-ma-bra/</link>
       <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/spa-paket-heldag-ma-bra.jpg</g:image_link>
-      <image>
-        <url>https://viva-media.github.io/hotelskansen-feed/images/spa-paket-heldag-ma-bra.jpg</url>
-      </image>
-      <g:price>1295 SEK</g:price>
-      <price>1295 SEK</price>
       <g:availability>in stock</g:availability>
-      <availability>in stock</availability>
+      <g:price>1295 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
       <g:custom_label_0>Spa &amp; dagpaket</g:custom_label_0>
@@ -287,19 +175,11 @@
     <item>
       <g:id>spa-paket-kvallsmys-25-min</g:id>
       <g:title>Kvällsmys</g:title>
-      <title>Kvällsmys</title>
       <g:description>Unna dig en avkopplande myskväll för 950 kr/person. Inkluderar lån av badrock, handduk, tofflor, relax, välkomstdrink, 2-rätters middag och 25 min behandling.</g:description>
-      <description>Unna dig en avkopplande myskväll för 950 kr/person. Inkluderar lån av badrock, handduk, tofflor, relax, välkomstdrink, 2-rätters middag och 25 min behandling.</description>
       <g:link>https://www.hotelskansen.com/paket/spa-paket-kvallsmys-25-min/</g:link>
-      <link>https://www.hotelskansen.com/paket/spa-paket-kvallsmys-25-min/</link>
       <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/spa-paket-kvallsmys-25-min.jpg</g:image_link>
-      <image>
-        <url>https://viva-media.github.io/hotelskansen-feed/images/spa-paket-kvallsmys-25-min.jpg</url>
-      </image>
-      <g:price>950 SEK</g:price>
-      <price>950 SEK</price>
       <g:availability>in stock</g:availability>
-      <availability>in stock</availability>
+      <g:price>950 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
       <g:custom_label_0>Spa &amp; dagpaket</g:custom_label_0>
@@ -307,19 +187,11 @@
     <item>
       <g:id>spa-paket-lycka</g:id>
       <g:title>Spapaket Lycka</g:title>
-      <title>Spapaket Lycka</title>
       <g:description>Unna dig Spapaket Lycka på Hotel Skansen. Avkoppling med mousserande, spabehandling och trerättersmiddag. Upplev Ölands pärlor och vårt relaxområde.</g:description>
-      <description>Unna dig Spapaket Lycka på Hotel Skansen. Avkoppling med mousserande, spabehandling och trerättersmiddag. Upplev Ölands pärlor och vårt relaxområde.</description>
       <g:link>https://www.hotelskansen.com/paket/spa-paket-lycka/</g:link>
-      <link>https://www.hotelskansen.com/paket/spa-paket-lycka/</link>
       <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/spa-paket-lycka.jpg</g:image_link>
-      <image>
-        <url>https://viva-media.github.io/hotelskansen-feed/images/spa-paket-lycka.jpg</url>
-      </image>
-      <g:price>2405 SEK</g:price>
-      <price>2405 SEK</price>
       <g:availability>in stock</g:availability>
-      <availability>in stock</availability>
+      <g:price>2405 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
       <g:custom_label_0>Övernattningspaket</g:custom_label_0>
@@ -327,19 +199,11 @@
     <item>
       <g:id>spaentre-med-lunch</g:id>
       <g:title>Spaentré med/utan lunch</g:title>
-      <title>Spaentré med/utan lunch</title>
       <g:description>Välj spaentré med eller utan lunch. Inkluderar badrock, handduk, tofflor och relax. Priser från 320 kr. Lunchtillägg möjligt, serveras 11.30-15.30.</g:description>
-      <description>Välj spaentré med eller utan lunch. Inkluderar badrock, handduk, tofflor och relax. Priser från 320 kr. Lunchtillägg möjligt, serveras 11.30-15.30.</description>
       <g:link>https://www.hotelskansen.com/paket/spaentre-med-lunch/</g:link>
-      <link>https://www.hotelskansen.com/paket/spaentre-med-lunch/</link>
       <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/spaentre-med-lunch.jpg</g:image_link>
-      <image>
-        <url>https://viva-media.github.io/hotelskansen-feed/images/spaentre-med-lunch.jpg</url>
-      </image>
-      <g:price>320 SEK</g:price>
-      <price>320 SEK</price>
       <g:availability>in stock</g:availability>
-      <availability>in stock</availability>
+      <g:price>320 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
       <g:custom_label_0>Spa &amp; dagpaket</g:custom_label_0>
@@ -347,19 +211,11 @@
     <item>
       <g:id>tingshuspaket</g:id>
       <g:title>Tingshuspaket</g:title>
-      <title>Tingshuspaket</title>
       <g:description>Tingshuspaketet– weekend hela veckan. Lämna vardagsstressen hemma och låta oss ta hand om er. Njut av en eftermiddag i vår relaxavdelning och avsluta kvällen med ett glas mousserande vin och en trerätters middag i vår restaurang. Vakna utvilad efter en ta god natts sömn startar ni dagen med vår populära frukostbuffé! Dag 1 Tillgång till [&amp;hellip;]</g:description>
-      <description>Tingshuspaketet– weekend hela veckan. Lämna vardagsstressen hemma och låta oss ta hand om er. Njut av en eftermiddag i vår relaxavdelning och avsluta kvällen med ett glas mousserande vin och en trerätters middag i vår restaurang. Vakna utvilad efter en ta god natts sömn startar ni dagen med vår populära frukostbuffé! Dag 1 Tillgång till [&amp;hellip;]</description>
       <g:link>https://www.hotelskansen.com/paket/tingshuspaket/</g:link>
-      <link>https://www.hotelskansen.com/paket/tingshuspaket/</link>
       <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/tingshuspaket.jpg</g:image_link>
-      <image>
-        <url>https://viva-media.github.io/hotelskansen-feed/images/tingshuspaket.jpg</url>
-      </image>
-      <g:price>1510 SEK</g:price>
-      <price>1510 SEK</price>
       <g:availability>in stock</g:availability>
-      <availability>in stock</availability>
+      <g:price>1510 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
       <g:custom_label_0>Övernattningspaket</g:custom_label_0>
@@ -367,19 +223,11 @@
     <item>
       <g:id>vinprovningspaket</g:id>
       <g:title>Vinprovningspaket</g:title>
-      <title>Vinprovningspaket</title>
       <g:description>En vistelse där du får upptäcka nya viner hos oss på Öland. Välkommen till Hotel Skansen och ett fulländat dygn i vinets tecken! Vår kunniga provningsledare tar med er på en smakupplevelse utöver det vanliga – både för nybörjare och vinfantaster. Kvällen avslutas med en härlig middag i någon av våra matsalar. Efter en god [&amp;hellip;]</g:description>
-      <description>En vistelse där du får upptäcka nya viner hos oss på Öland. Välkommen till Hotel Skansen och ett fulländat dygn i vinets tecken! Vår kunniga provningsledare tar med er på en smakupplevelse utöver det vanliga – både för nybörjare och vinfantaster. Kvällen avslutas med en härlig middag i någon av våra matsalar. Efter en god [&amp;hellip;]</description>
       <g:link>https://www.hotelskansen.com/paket/vinprovningspaket/</g:link>
-      <link>https://www.hotelskansen.com/paket/vinprovningspaket/</link>
       <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/vinprovningspaket.jpg</g:image_link>
-      <image>
-        <url>https://viva-media.github.io/hotelskansen-feed/images/vinprovningspaket.jpg</url>
-      </image>
-      <g:price>1930 SEK</g:price>
-      <price>1930 SEK</price>
       <g:availability>in stock</g:availability>
-      <availability>in stock</availability>
+      <g:price>1930 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
       <g:custom_label_0>Övernattningspaket</g:custom_label_0>
@@ -387,19 +235,11 @@
     <item>
       <g:id>whiskypaket</g:id>
       <g:title>Whiskypaket</g:title>
-      <title>Whiskypaket</title>
       <g:description>Upptäck whiskyns värld med Hotel Skansen. Whiskyprovning i en av världens största whiskykällare, övernattning, gourmetmiddag och frukostbuffé.</g:description>
-      <description>Upptäck whiskyns värld med Hotel Skansen. Whiskyprovning i en av världens största whiskykällare, övernattning, gourmetmiddag och frukostbuffé.</description>
       <g:link>https://www.hotelskansen.com/paket/whiskypaket/</g:link>
-      <link>https://www.hotelskansen.com/paket/whiskypaket/</link>
       <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/whiskypaket.jpg</g:image_link>
-      <image>
-        <url>https://viva-media.github.io/hotelskansen-feed/images/whiskypaket.jpg</url>
-      </image>
-      <g:price>1750 SEK</g:price>
-      <price>1750 SEK</price>
       <g:availability>in stock</g:availability>
-      <availability>in stock</availability>
+      <g:price>1750 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
       <g:custom_label_0>Övernattningspaket</g:custom_label_0>
