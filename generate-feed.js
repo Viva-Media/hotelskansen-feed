@@ -231,24 +231,19 @@ function generateXMLFeed(items) {
   xml += '    <link>https://www.hotelskansen.com/paket/</link>\n';
   xml += '    <description>Hotellpaket och weekendpaket på Hotel Skansen, Öland / Kalmar</description>\n';
 
+  // Clean Google Shopping RSS: ONLY g:-prefixed fields per item. (Do NOT add
+  // bare <title>/<price>/<image> duplicates — those belong to Meta's automotive
+  // inventory schema and make the product-catalog parser reject every item.)
   for (const it of items) {
     const price = `${it.price} SEK`;
     xml += '    <item>\n';
     xml += `      <g:id>${escapeXml(it.slug)}</g:id>\n`;
     xml += `      <g:title>${escapeXml(it.title)}</g:title>\n`;
-    xml += `      <title>${escapeXml(it.title)}</title>\n`;
     xml += `      <g:description>${escapeXml(it.description)}</g:description>\n`;
-    xml += `      <description>${escapeXml(it.description)}</description>\n`;
     xml += `      <g:link>${escapeXml(it.url)}</g:link>\n`;
-    xml += `      <link>${escapeXml(it.url)}</link>\n`;
     xml += `      <g:image_link>${escapeXml(it.imageLink)}</g:image_link>\n`;
-    xml += '      <image>\n';
-    xml += `        <url>${escapeXml(it.imageLink)}</url>\n`;
-    xml += '      </image>\n';
-    xml += `      <g:price>${escapeXml(price)}</g:price>\n`;
-    xml += `      <price>${escapeXml(price)}</price>\n`;
     xml += '      <g:availability>in stock</g:availability>\n';
-    xml += '      <availability>in stock</availability>\n';
+    xml += `      <g:price>${escapeXml(price)}</g:price>\n`;
     xml += '      <g:condition>new</g:condition>\n';
     xml += '      <g:brand>Hotel Skansen</g:brand>\n';
     xml += `      <g:custom_label_0>${escapeXml(it.category)}</g:custom_label_0>\n`;
