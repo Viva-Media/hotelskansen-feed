@@ -125,6 +125,18 @@
       <g:custom_label_0>Spa &amp; dagpaket</g:custom_label_0>
     </item>
     <item>
+      <g:id>nyar</g:id>
+      <g:title>Nyår</g:title>
+      <g:description>Skåla in 2027 tillsammans med oss! Fira nyårsafton på bästa sätt – tillsammans. Vi lämnar det gamla året bakom oss, summerar och blickar framåt mot ett nytt, spännande år. Checka in och njut av tillvaron utan stress och måsten under ett dygn hos oss på Hotel Skansen med vårt nyårspaket. Gör ditt nyårfirande på Öland [&amp;hellip;]</g:description>
+      <g:link>https://www.hotelskansen.com/paket/nyar/</g:link>
+      <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/nyar.jpg</g:image_link>
+      <g:availability>in stock</g:availability>
+      <g:price>2745 SEK</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Hotel Skansen</g:brand>
+      <g:custom_label_0>Övernattningspaket</g:custom_label_0>
+    </item>
+    <item>
       <g:id>skansenpaket</g:id>
       <g:title>Skansenpaket</g:title>
       <g:description>Upplev Skansenpaketet på Hotel Skansen. Njut av en natt med lyxigt boende, mousserande vin, trerätters middag, och Ölands charm.</g:description>
