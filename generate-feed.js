@@ -45,6 +45,22 @@ const SQUARE_SIZE = 1080; // px — Meta recommends >=600, square
 const FEED_BASE_URL = (process.env.FEED_BASE_URL || 'https://REPLACE-ME.github.io/hotelskansen-feed').replace(/\/+$/, '');
 
 // ---------------------------------------------------------------------------
+// Hotel location (used by the Destinations/travel feed — every package is sold
+// at the same physical hotel, so they share one address + coordinates).
+// ---------------------------------------------------------------------------
+const HOTEL = {
+  addr1: 'Tingshusgatan 1',
+  city: 'Färjestaden',
+  region: 'Kalmar län',
+  country: 'SE', // ISO 3166-1 alpha-2
+  postal_code: '386 30',
+  latitude: 56.64897,
+  longitude: 16.46713,
+  neighborhood: 'Öland',
+  type: 'Hotel', // Meta destination "type"/"types"
+};
+
+// ---------------------------------------------------------------------------
 // HTTP helpers
 // ---------------------------------------------------------------------------
 function get(url, { binary = false } = {}) {
@@ -287,6 +303,106 @@ function generateCSVFeed(items) {
   return csv;
 }
 
+// ---------------------------------------------------------------------------
+// Destinations / travel catalog output
+// ---------------------------------------------------------------------------
+// Alexander created the Meta catalog as a "Destinations" (travel) catalog, whose
+// mandatory fields are destination_id, name, type, address, url and image — a
+// different schema from the e-commerce product feed above. These functions emit
+// that schema. The RSS uses the listing-style format (nested <image>, the
+// <address format="simple"><component>… block) — the same convention Meta's
+// travel/automotive catalogs use, matching the vehicle feeds in this repo.
+// `type` and `types` are BOTH emitted because Meta's validator named the field
+// "type" while the Graph API uses "types"; unrecognised tags are ignored, so
+// providing both guarantees a hit.
+
+function generateDestinationXML(items) {
+  let xml = '<?xml version="1.0" encoding="UTF-8"?>\n';
+  xml += '<rss version="2.0">\n';
+  xml += '  <channel>\n';
+  xml += '    <title>Hotel Skansen - Paket (destinationer)</title>\n';
+  xml += '    <link>https://www.hotelskansen.com/paket/</link>\n';
+  xml += '    <description>Hotellpaket på Hotel Skansen, Färjestaden / Öland</description>\n';
+
+  for (const it of items) {
+    xml += '    <item>\n';
+    xml += `      <destination_id>${escapeXml(it.slug)}</destination_id>\n`;
+    xml += `      <name>${escapeXml(it.title)}</name>\n`;
+    xml += `      <description>${escapeXml(it.description)}</description>\n`;
+    xml += `      <url>${escapeXml(it.url)}</url>\n`;
+    xml += `      <type>${escapeXml(HOTEL.type)}</type>\n`;
+    xml += `      <types>${escapeXml(HOTEL.type)}</types>\n`;
+    xml += '      <image>\n';
+    xml += `        <url>${escapeXml(it.imageLink)}</url>\n`;
+    xml += '      </image>\n';
+    xml += '      <address format="simple">\n';
+    xml += `        <component name="addr1">${escapeXml(HOTEL.addr1)}</component>\n`;
+    xml += `        <component name="city">${escapeXml(HOTEL.city)}</component>\n`;
+    xml += `        <component name="region">${escapeXml(HOTEL.region)}</component>\n`;
+    xml += `        <component name="country">${escapeXml(HOTEL.country)}</component>\n`;
+    xml += `        <component name="postal_code">${escapeXml(HOTEL.postal_code)}</component>\n`;
+    xml += '      </address>\n';
+    xml += `      <neighborhood>${escapeXml(HOTEL.neighborhood)}</neighborhood>\n`;
+    xml += `      <latitude>${HOTEL.latitude}</latitude>\n`;
+    xml += `      <longitude>${HOTEL.longitude}</longitude>\n`;
+    xml += `      <price>${it.price} SEK</price>\n`;
+    xml += '      <currency>SEK</currency>\n';
+    xml += '    </item>\n';
+  }
+
+  xml += '  </channel>\n';
+  xml += '</rss>';
+  return xml;
+}
+
+function generateDestinationCSV(items) {
+  // Dotted/bracket column names follow Meta's travel-catalog feed convention
+  // (same style as image[0].url / address.addr1 in the vehicle feeds).
+  const headers = [
+    'destination_id',
+    'name',
+    'description',
+    'url',
+    'image[0].url',
+    'address.addr1',
+    'address.city',
+    'address.region',
+    'address.country',
+    'address.postal_code',
+    'neighborhood[0]',
+    'latitude',
+    'longitude',
+    'type',
+    'types',
+    'price',
+    'currency',
+  ];
+  let csv = headers.join(',') + '\n';
+  for (const it of items) {
+    csv +=
+      [
+        escapeCsv(it.slug),
+        escapeCsv(it.title),
+        escapeCsv(it.description),
+        escapeCsv(it.url),
+        escapeCsv(it.imageLink),
+        escapeCsv(HOTEL.addr1),
+        escapeCsv(HOTEL.city),
+        escapeCsv(HOTEL.region),
+        escapeCsv(HOTEL.country),
+        escapeCsv(HOTEL.postal_code),
+        escapeCsv(HOTEL.neighborhood),
+        escapeCsv(HOTEL.latitude),
+        escapeCsv(HOTEL.longitude),
+        escapeCsv(HOTEL.type),
+        escapeCsv(HOTEL.type),
+        escapeCsv(`${it.price} SEK`),
+        escapeCsv('SEK'),
+      ].join(',') + '\n';
+  }
+  return csv;
+}
+
 function generateIndexHtml(items, skipped) {
   const rows = items
     .map(
@@ -312,13 +428,13 @@ function generateIndexHtml(items, skipped) {
 <body>
   <h1>Hotel Skansen — Facebook Dynamic Ads Feed</h1>
   <div class="feed-url">
-    <strong>Use this URL in Facebook Commerce Manager:</strong><br><br>
+    <strong>Destinations (travel) catalog — use this URL in Commerce Manager:</strong><br><br>
     <code id="feedUrl">Loading...</code>
   </div>
   <p>Packages in feed: <strong>${items.length}</strong>${skipped.length ? ` &nbsp;|&nbsp; skipped (no price): <strong>${skipped.length}</strong>` : ''}</p>
   <ul>
-    <li><a href="feed.xml">View XML feed</a></li>
-    <li><a href="feed.csv">View CSV feed</a></li>
+    <li><strong>Destinations catalog:</strong> <a href="destinations.xml">destinations.xml</a> &middot; <a href="destinations.csv">destinations.csv</a></li>
+    <li><strong>E-commerce/Products catalog:</strong> <a href="feed.xml">feed.xml</a> &middot; <a href="feed.csv">feed.csv</a></li>
   </ul>
   <table>
     <tr><th>Package</th><th>From price</th><th>Category</th></tr>
@@ -326,7 +442,7 @@ function generateIndexHtml(items, skipped) {
   </table>
   <script>
     document.getElementById('feedUrl').textContent =
-      window.location.origin + window.location.pathname.replace(/index\\.html$/, '') + 'feed.xml';
+      window.location.origin + window.location.pathname.replace(/index\\.html$/, '') + 'destinations.xml';
   </script>
 </body>
 </html>`;
@@ -390,8 +506,12 @@ async function main() {
 
   if (items.length === 0) throw new Error('No packages processed — aborting.');
 
+  // Product (e-commerce) catalog feed
   fs.writeFileSync(path.join(OUTPUT_DIR, 'feed.xml'), generateXMLFeed(items), 'utf8');
   fs.writeFileSync(path.join(OUTPUT_DIR, 'feed.csv'), '﻿' + generateCSVFeed(items), 'utf8');
+  // Destinations (travel) catalog feed
+  fs.writeFileSync(path.join(OUTPUT_DIR, 'destinations.xml'), generateDestinationXML(items), 'utf8');
+  fs.writeFileSync(path.join(OUTPUT_DIR, 'destinations.csv'), '﻿' + generateDestinationCSV(items), 'utf8');
   fs.writeFileSync(path.join(OUTPUT_DIR, 'index.html'), generateIndexHtml(items, skipped), 'utf8');
 
   console.log(`\nDone. ${items.length} packages in feed, ${skipped.length} skipped.`);
