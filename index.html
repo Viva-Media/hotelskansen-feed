@@ -16,13 +16,13 @@
 <body>
   <h1>Hotel Skansen — Facebook Dynamic Ads Feed</h1>
   <div class="feed-url">
-    <strong>Use this URL in Facebook Commerce Manager:</strong><br><br>
+    <strong>Destinations (travel) catalog — use this URL in Commerce Manager:</strong><br><br>
     <code id="feedUrl">Loading...</code>
   </div>
   <p>Packages in feed: <strong>21</strong> &nbsp;|&nbsp; skipped (no price): <strong>1</strong></p>
   <ul>
-    <li><a href="feed.xml">View XML feed</a></li>
-    <li><a href="feed.csv">View CSV feed</a></li>
+    <li><strong>Destinations catalog:</strong> <a href="destinations.xml">destinations.xml</a> &middot; <a href="destinations.csv">destinations.csv</a></li>
+    <li><strong>E-commerce/Products catalog:</strong> <a href="feed.xml">feed.xml</a> &middot; <a href="feed.csv">feed.csv</a></li>
   </ul>
   <table>
     <tr><th>Package</th><th>From price</th><th>Category</th></tr>
@@ -50,7 +50,7 @@
   </table>
   <script>
     document.getElementById('feedUrl').textContent =
-      window.location.origin + window.location.pathname.replace(/index\.html$/, '') + 'feed.xml';
+      window.location.origin + window.location.pathname.replace(/index\.html$/, '') + 'destinations.xml';
   </script>
 </body>
 </html>
