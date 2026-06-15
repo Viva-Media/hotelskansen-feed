@@ -15,7 +15,19 @@ De andra feedsen (borasbil, rejmes, frivio …) läser ett rent JSON-API. Hotel 
    | **Bild** | `og:image` (paket-specifik bild), fallback `twitter:image` |
    | **Beskrivning** | `meta name="description"` |
 3. Varje bild laddas ner och **beskärs till 1:1 (1080×1080)** med `sharp` (smart "attention"-crop, eftersom bilderna har blandade porträtt-/landskapsformat). Sparas i `output/images/<slug>.jpg`.
-4. Skriver `feed.xml`, `feed.csv` och `index.html` till `output/`.
+4. Skriver feed-filerna till `output/` (se nedan).
+
+## Feed-filer (kataloggtyp)
+
+Hotel Skansens Meta-katalog är en **Destinations-/rese-katalog**, så den feeden ligger på den primära länken `feed.xml`:
+
+| Fil | Format | Använd för |
+|-----|--------|-----------|
+| **`feed.xml` / `feed.csv`** | **Destinations (rese)** | **Den länk som klistras in i Commerce Manager** |
+| `destinations.xml` / `destinations.csv` | Destinations (rese) | Alias, identiskt med `feed.xml` |
+| `products.xml` / `products.csv` | E-handel / produkter | Reserv om katalogen byts till produkttyp |
+
+Destinations-schemat: `destination_id, name, type/types, description, url, image, address` (Tingshusgatan 1, Färjestaden, Öland), `latitude/longitude`, `price/currency`. RSS:en använder listing-formatet (`<address format="simple">`, nästlad `<image>`) — samma konvention som rese-/fordonskatalogerna.
 
 ## Prisregel
 

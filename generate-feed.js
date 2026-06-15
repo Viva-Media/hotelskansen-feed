@@ -433,8 +433,8 @@ function generateIndexHtml(items, skipped) {
   </div>
   <p>Packages in feed: <strong>${items.length}</strong>${skipped.length ? ` &nbsp;|&nbsp; skipped (no price): <strong>${skipped.length}</strong>` : ''}</p>
   <ul>
-    <li><strong>Destinations catalog:</strong> <a href="destinations.xml">destinations.xml</a> &middot; <a href="destinations.csv">destinations.csv</a></li>
-    <li><strong>E-commerce/Products catalog:</strong> <a href="feed.xml">feed.xml</a> &middot; <a href="feed.csv">feed.csv</a></li>
+    <li><strong>Destinations catalog (primary):</strong> <a href="feed.xml">feed.xml</a> &middot; <a href="feed.csv">feed.csv</a></li>
+    <li>E-commerce / products format: <a href="products.xml">products.xml</a> &middot; <a href="products.csv">products.csv</a></li>
   </ul>
   <table>
     <tr><th>Package</th><th>From price</th><th>Category</th></tr>
@@ -442,7 +442,7 @@ function generateIndexHtml(items, skipped) {
   </table>
   <script>
     document.getElementById('feedUrl').textContent =
-      window.location.origin + window.location.pathname.replace(/index\\.html$/, '') + 'destinations.xml';
+      window.location.origin + window.location.pathname.replace(/index\\.html$/, '') + 'feed.xml';
   </script>
 </body>
 </html>`;
@@ -506,12 +506,19 @@ async function main() {
 
   if (items.length === 0) throw new Error('No packages processed — aborting.');
 
-  // Product (e-commerce) catalog feed
-  fs.writeFileSync(path.join(OUTPUT_DIR, 'feed.xml'), generateXMLFeed(items), 'utf8');
-  fs.writeFileSync(path.join(OUTPUT_DIR, 'feed.csv'), '﻿' + generateCSVFeed(items), 'utf8');
-  // Destinations (travel) catalog feed
-  fs.writeFileSync(path.join(OUTPUT_DIR, 'destinations.xml'), generateDestinationXML(items), 'utf8');
-  fs.writeFileSync(path.join(OUTPUT_DIR, 'destinations.csv'), '﻿' + generateDestinationCSV(items), 'utf8');
+  // PRIMARY feed.xml / feed.csv = Destinations (travel) catalog — this is the
+  // catalog type Hotel Skansen uses, and keeps the same clean .../feed.xml link
+  // as every other feed in the org.
+  const destXml = generateDestinationXML(items);
+  const destCsv = '﻿' + generateDestinationCSV(items);
+  fs.writeFileSync(path.join(OUTPUT_DIR, 'feed.xml'), destXml, 'utf8');
+  fs.writeFileSync(path.join(OUTPUT_DIR, 'feed.csv'), destCsv, 'utf8');
+  // Aliases so any previously-shared destinations.* link keeps working.
+  fs.writeFileSync(path.join(OUTPUT_DIR, 'destinations.xml'), destXml, 'utf8');
+  fs.writeFileSync(path.join(OUTPUT_DIR, 'destinations.csv'), destCsv, 'utf8');
+  // E-commerce / product format kept available (not the primary link).
+  fs.writeFileSync(path.join(OUTPUT_DIR, 'products.xml'), generateXMLFeed(items), 'utf8');
+  fs.writeFileSync(path.join(OUTPUT_DIR, 'products.csv'), '﻿' + generateCSVFeed(items), 'utf8');
   fs.writeFileSync(path.join(OUTPUT_DIR, 'index.html'), generateIndexHtml(items, skipped), 'utf8');
 
   console.log(`\nDone. ${items.length} packages in feed, ${skipped.length} skipped.`);
