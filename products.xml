@@ -14,7 +14,7 @@
       <g:price>249 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
-      <g:custom_label_0>Spa &amp; dagpaket</g:custom_label_0>
+      <g:custom_label_0>Övernattningspaket</g:custom_label_0>
     </item>
     <item>
       <g:id>golfpaket</g:id>
@@ -38,7 +38,7 @@
       <g:price>715 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
-      <g:custom_label_0>Spa &amp; dagpaket</g:custom_label_0>
+      <g:custom_label_0>Övernattningspaket</g:custom_label_0>
     </item>
     <item>
       <g:id>kvallsmys-50-min</g:id>
@@ -50,7 +50,7 @@
       <g:price>1150 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
-      <g:custom_label_0>Spa &amp; dagpaket</g:custom_label_0>
+      <g:custom_label_0>Övernattningspaket</g:custom_label_0>
     </item>
     <item>
       <g:id>mandagsspa-for-seniorer</g:id>
@@ -62,7 +62,7 @@
       <g:price>280 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
-      <g:custom_label_0>Spa &amp; dagpaket</g:custom_label_0>
+      <g:custom_label_0>Övernattningspaket</g:custom_label_0>
     </item>
     <item>
       <g:id>midsommarpaketet</g:id>
@@ -98,7 +98,7 @@
       <g:price>580 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
-      <g:custom_label_0>Paket</g:custom_label_0>
+      <g:custom_label_0>Övernattningspaket</g:custom_label_0>
     </item>
     <item>
       <g:id>mord-mystik</g:id>
@@ -122,7 +122,7 @@
       <g:price>349 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
-      <g:custom_label_0>Spa &amp; dagpaket</g:custom_label_0>
+      <g:custom_label_0>Övernattningspaket</g:custom_label_0>
     </item>
     <item>
       <g:id>nyar</g:id>
@@ -131,7 +131,7 @@
       <g:link>https://www.hotelskansen.com/paket/nyar/</g:link>
       <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/nyar.jpg</g:image_link>
       <g:availability>in stock</g:availability>
-      <g:price>2745 SEK</g:price>
+      <g:price>1750 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
       <g:custom_label_0>Övernattningspaket</g:custom_label_0>
@@ -170,7 +170,7 @@
       <g:price>1045 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
-      <g:custom_label_0>Spa &amp; dagpaket</g:custom_label_0>
+      <g:custom_label_0>Övernattningspaket</g:custom_label_0>
     </item>
     <item>
       <g:id>spa-paket-heldag-ma-bra</g:id>
@@ -182,7 +182,7 @@
       <g:price>1295 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
-      <g:custom_label_0>Spa &amp; dagpaket</g:custom_label_0>
+      <g:custom_label_0>Övernattningspaket</g:custom_label_0>
     </item>
     <item>
       <g:id>spa-paket-kvallsmys-25-min</g:id>
@@ -194,7 +194,7 @@
       <g:price>950 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
-      <g:custom_label_0>Spa &amp; dagpaket</g:custom_label_0>
+      <g:custom_label_0>Övernattningspaket</g:custom_label_0>
     </item>
     <item>
       <g:id>spa-paket-lycka</g:id>
@@ -203,7 +203,7 @@
       <g:link>https://www.hotelskansen.com/paket/spa-paket-lycka/</g:link>
       <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/spa-paket-lycka.jpg</g:image_link>
       <g:availability>in stock</g:availability>
-      <g:price>2405 SEK</g:price>
+      <g:price>1750 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
       <g:custom_label_0>Övernattningspaket</g:custom_label_0>
@@ -218,7 +218,7 @@
       <g:price>320 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
-      <g:custom_label_0>Spa &amp; dagpaket</g:custom_label_0>
+      <g:custom_label_0>Övernattningspaket</g:custom_label_0>
     </item>
     <item>
       <g:id>tingshuspaket</g:id>
@@ -239,7 +239,7 @@
       <g:link>https://www.hotelskansen.com/paket/vinprovningspaket/</g:link>
       <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/vinprovningspaket.jpg</g:image_link>
       <g:availability>in stock</g:availability>
-      <g:price>1930 SEK</g:price>
+      <g:price>1750 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
       <g:custom_label_0>Övernattningspaket</g:custom_label_0>
