@@ -53,18 +53,6 @@
       <g:custom_label_0>Övernattningspaket</g:custom_label_0>
     </item>
     <item>
-      <g:id>midsommarpaketet</g:id>
-      <g:title>Midsommarpaket</g:title>
-      <g:description>Fira midsommar på Öland med vårt Midsommarpaket: Njut av midsommarkaka, 3-rätters middag och härlig atmosfär. Perfekt för familjer och vänner.</g:description>
-      <g:link>https://www.hotelskansen.com/paket/midsommarpaketet/</g:link>
-      <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/midsommarpaketet.jpg</g:image_link>
-      <g:availability>in stock</g:availability>
-      <g:price>850 SEK</g:price>
-      <g:condition>new</g:condition>
-      <g:brand>Hotel Skansen</g:brand>
-      <g:custom_label_0>Övernattningspaket</g:custom_label_0>
-    </item>
-    <item>
       <g:id>minisemester-3-natter</g:id>
       <g:title>Minisemester 3 nätter</g:title>
       <g:description>Unna dig en tre-dagars minisemester på Öland och låt vardagsstressen sväva bort. Lyxiga tvårätters middagar, bubblande välkomstdrinkar och SPA.</g:description>
