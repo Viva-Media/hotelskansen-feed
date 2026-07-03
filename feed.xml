@@ -51,6 +51,29 @@
       <currency>SEK</currency>
     </item>
     <item>
+      <destination_id>highland-park-overnattningspaket</destination_id>
+      <name>Highland Park – Övernattningspaket</name>
+      <description>Kom och upplev något utöver det vanliga en Highland Park-provning! Kvällen leds av Max Warner på engelska där vi startar kvällen med en Highland Park-cocktail för att sedan upptäcka tre olika sorters Highland Park-whisky. Under två timmar i vår världsberömda whiskykällare kommer du få ta del av Max Warners erfarenheter och historier efter mer än [&amp;hellip;]</description>
+      <url>https://www.hotelskansen.com/paket/highland-park-overnattningspaket/</url>
+      <type>Hotel</type>
+      <types>Hotel</types>
+      <image>
+        <url>https://viva-media.github.io/hotelskansen-feed/images/highland-park-overnattningspaket.jpg</url>
+      </image>
+      <address format="simple">
+        <component name="addr1">Tingshusgatan 1</component>
+        <component name="city">Färjestaden</component>
+        <component name="region">Kalmar län</component>
+        <component name="country">SE</component>
+        <component name="postal_code">386 30</component>
+      </address>
+      <neighborhood>Öland</neighborhood>
+      <latitude>56.64897</latitude>
+      <longitude>16.46713</longitude>
+      <price>1625 SEK</price>
+      <currency>SEK</currency>
+    </item>
+    <item>
       <destination_id>kvallsmys-50-min</destination_id>
       <name>Kvällslyx</name>
       <description>Lyxigt Kvällsmys 2 för 1150 kr/person: Inkluderar badrock, handduk, tofflor, relaxentré, välkomstdrink, 2-rätters middag och 50 min valfri behandling.</description>
