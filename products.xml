@@ -41,6 +41,18 @@
       <g:custom_label_0>Övernattningspaket</g:custom_label_0>
     </item>
     <item>
+      <g:id>julbordspaket</g:id>
+      <g:title>Julbordspaket</g:title>
+      <g:description>Ladda upp med julkänsla hos oss! Checka in hos oss på Hotel Skansen och njut av tillvaron med julstämning, glögg och god mat. Precis som vanligt i juletid så dukas vårt fantastiska julbord upp i bistron – ett populärt inslag på Öland, nära Kalmar. Kombinera jultraditionen med att upptäcka några av Ölands pärlor eller koppla [&amp;hellip;]</g:description>
+      <g:link>https://www.hotelskansen.com/paket/julbordspaket/</g:link>
+      <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/julbordspaket.jpg</g:image_link>
+      <g:availability>in stock</g:availability>
+      <g:price>1635 SEK</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Hotel Skansen</g:brand>
+      <g:custom_label_0>Övernattningspaket</g:custom_label_0>
+    </item>
+    <item>
       <g:id>kvallsmys-50-min</g:id>
       <g:title>Kvällslyx</g:title>
       <g:description>Lyxigt Kvällsmys 2 för 1150 kr/person: Inkluderar badrock, handduk, tofflor, relaxentré, välkomstdrink, 2-rätters middag och 50 min valfri behandling.</g:description>
