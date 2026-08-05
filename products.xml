@@ -26,7 +26,7 @@
       <g:price>715 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
-      <g:custom_label_0>Spa &amp; dagpaket</g:custom_label_0>
+      <g:custom_label_0>Övernattningspaket</g:custom_label_0>
     </item>
     <item>
       <g:id>highland-park-overnattningspaket</g:id>
@@ -62,7 +62,7 @@
       <g:price>1150 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
-      <g:custom_label_0>Spa &amp; dagpaket</g:custom_label_0>
+      <g:custom_label_0>Övernattningspaket</g:custom_label_0>
     </item>
     <item>
       <g:id>mandagsspa-for-seniorer</g:id>
@@ -74,7 +74,7 @@
       <g:price>280 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
-      <g:custom_label_0>Spa &amp; dagpaket</g:custom_label_0>
+      <g:custom_label_0>Övernattningspaket</g:custom_label_0>
     </item>
     <item>
       <g:id>minisemester-3-natter</g:id>
@@ -98,7 +98,7 @@
       <g:price>580 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
-      <g:custom_label_0>Paket</g:custom_label_0>
+      <g:custom_label_0>Övernattningspaket</g:custom_label_0>
     </item>
     <item>
       <g:id>mord-mystik</g:id>
@@ -122,7 +122,7 @@
       <g:price>349 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
-      <g:custom_label_0>Spa &amp; dagpaket</g:custom_label_0>
+      <g:custom_label_0>Övernattningspaket</g:custom_label_0>
     </item>
     <item>
       <g:id>nyar</g:id>
@@ -170,7 +170,7 @@
       <g:price>1045 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
-      <g:custom_label_0>Spa &amp; dagpaket</g:custom_label_0>
+      <g:custom_label_0>Övernattningspaket</g:custom_label_0>
     </item>
     <item>
       <g:id>spa-paket-heldag-ma-bra</g:id>
@@ -182,7 +182,7 @@
       <g:price>1295 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
-      <g:custom_label_0>Spa &amp; dagpaket</g:custom_label_0>
+      <g:custom_label_0>Övernattningspaket</g:custom_label_0>
     </item>
     <item>
       <g:id>spa-paket-kvallsmys-25-min</g:id>
@@ -194,7 +194,7 @@
       <g:price>950 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
-      <g:custom_label_0>Spa &amp; dagpaket</g:custom_label_0>
+      <g:custom_label_0>Övernattningspaket</g:custom_label_0>
     </item>
     <item>
       <g:id>spa-paket-lycka</g:id>
@@ -218,7 +218,7 @@
       <g:price>320 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
-      <g:custom_label_0>Spa &amp; dagpaket</g:custom_label_0>
+      <g:custom_label_0>Övernattningspaket</g:custom_label_0>
     </item>
     <item>
       <g:id>tingshuspaket</g:id>
