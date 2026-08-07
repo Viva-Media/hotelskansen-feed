@@ -5,6 +5,18 @@
     <link>https://www.hotelskansen.com/paket/</link>
     <description>Hotellpaket och weekendpaket på Hotel Skansen, Öland / Kalmar</description>
     <item>
+      <g:id>afterwork-med-relax</g:id>
+      <g:title>Afterwork med relax</g:title>
+      <g:description>Upplev en skön after work varje onsdag hos oss. Paketet inkluderar entré, badrock, tofflor, handduk, en smakrik kycklingwrap för endast 249 SEK/person.</g:description>
+      <g:link>https://www.hotelskansen.com/paket/afterwork-med-relax/</g:link>
+      <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/afterwork-med-relax.jpg</g:image_link>
+      <g:availability>in stock</g:availability>
+      <g:price>249 SEK</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Hotel Skansen</g:brand>
+      <g:custom_label_0>Övernattningspaket</g:custom_label_0>
+    </item>
+    <item>
       <g:id>golfpaket</g:id>
       <g:title>Golfpaket</g:title>
       <g:description>Upplev det ultimata golfpaketet på Öland med Hotel Skansen: Spela på Saxnäs GK. Inkluderar greenfee, övernattning, mousserande vin och gourmetmiddagar.</g:description>
