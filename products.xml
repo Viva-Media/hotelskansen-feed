@@ -245,6 +245,18 @@
       <g:custom_label_0>Övernattningspaket</g:custom_label_0>
     </item>
     <item>
+      <g:id>vinprovningspaket</g:id>
+      <g:title>Vinprovningspaket</g:title>
+      <g:description>En vistelse där du får upptäcka nya viner hos oss på Öland. Välkommen till Hotel Skansen och ett fulländat dygn i vinets tecken! Vår kunniga provningsledare tar med er på en smakupplevelse utöver det vanliga – både för nybörjare och vinfantaster. Kvällen avslutas med en härlig middag i någon av våra matsalar. Efter en god [&amp;hellip;]</g:description>
+      <g:link>https://www.hotelskansen.com/paket/vinprovningspaket/</g:link>
+      <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/vinprovningspaket.jpg</g:image_link>
+      <g:availability>in stock</g:availability>
+      <g:price>1930 SEK</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Hotel Skansen</g:brand>
+      <g:custom_label_0>Övernattningspaket</g:custom_label_0>
+    </item>
+    <item>
       <g:id>whiskypaket</g:id>
       <g:title>Whiskypaket</g:title>
       <g:description>Upptäck whiskyns värld med Hotel Skansen. Whiskyprovning i en av världens största whiskykällare, övernattning, gourmetmiddag och frukostbuffé.</g:description>
