@@ -65,6 +65,18 @@
       <g:custom_label_0>Övernattningspaket</g:custom_label_0>
     </item>
     <item>
+      <g:id>lille-julafton</g:id>
+      <g:title>Lille-julafton</g:title>
+      <g:description>Dagen för julafton – lille-julafton! Upplev den 23 december på bästa sätt hos oss på Hotel Skansen i Färjestaden, Öland – en perfekt paus innan julens alla festligheter. Låt lugnet infinna sig i vårt spa, koppla av i vår nya varma utomhuspool, ta ett dopp i inomhuspoolen eller njut av värmen i bastun. Välj det [&amp;hellip;]</g:description>
+      <g:link>https://www.hotelskansen.com/paket/lille-julafton/</g:link>
+      <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/lille-julafton.jpg</g:image_link>
+      <g:availability>in stock</g:availability>
+      <g:price>470 SEK</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Hotel Skansen</g:brand>
+      <g:custom_label_0>Övernattningspaket</g:custom_label_0>
+    </item>
+    <item>
       <g:id>mandagsspa-for-seniorer</g:id>
       <g:title>Seniorspa</g:title>
       <g:description>Måndagsspa för seniorer: Tillgång till relax, inklusive handduk och lunch, för 280 kr/person. Njut av en avkopplande dag mellan 09.00-15.00.</g:description>
@@ -72,6 +84,18 @@
       <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/mandagsspa-for-seniorer.jpg</g:image_link>
       <g:availability>in stock</g:availability>
       <g:price>280 SEK</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Hotel Skansen</g:brand>
+      <g:custom_label_0>Övernattningspaket</g:custom_label_0>
+    </item>
+    <item>
+      <g:id>mellandagsmys</g:id>
+      <g:title>Mellandagsmys</g:title>
+      <g:description>25 – 30 december &amp; 1 – 10 januari Koppla av och mys hos oss på Öland i mellandagarna! Checka in och njut av tillvaron utan stress och måsten, koppla av i vår relaxavdelning med bad, bastu och varm utomhuspool. Därefter serverar vi er en tvårättersmiddag tillsammans med ett glas mousserande vin. Efter en god [&amp;hellip;]</g:description>
+      <g:link>https://www.hotelskansen.com/paket/mellandagsmys/</g:link>
+      <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/mellandagsmys.jpg</g:image_link>
+      <g:availability>in stock</g:availability>
+      <g:price>1300 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
       <g:custom_label_0>Övernattningspaket</g:custom_label_0>
