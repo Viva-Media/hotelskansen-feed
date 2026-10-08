@@ -161,6 +161,18 @@
       <g:custom_label_0>Övernattningspaket</g:custom_label_0>
     </item>
     <item>
+      <g:id>nyarsdoppet</g:id>
+      <g:title>Nyårsdoppet</g:title>
+      <g:description>Nyårsbada i Kalmarsund med oss! Upplev morgonen den 1 januari på bästa sätt hos oss på Hotel Skansen i Färjestaden, Öland – en perfekt början på det nya året fylld av frisk havsluft, spa-avkoppling och gemenskap. Låt kroppen vakna i värmen från vår relaxavdelning, känn pirret inför doppet i sundet eller stanna kvar och bara [&amp;hellip;]</g:description>
+      <g:link>https://www.hotelskansen.com/paket/nyarsdoppet/</g:link>
+      <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/nyarsdoppet.jpg</g:image_link>
+      <g:availability>in stock</g:availability>
+      <g:price>299 SEK</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Hotel Skansen</g:brand>
+      <g:custom_label_0>Övernattningspaket</g:custom_label_0>
+    </item>
+    <item>
       <g:id>skansenpaket</g:id>
       <g:title>Skansenpaket</g:title>
       <g:description>Upplev Skansenpaketet på Hotel Skansen. Njut av en natt med lyxigt boende, mousserande vin, trerätters middag, och Ölands charm.</g:description>
