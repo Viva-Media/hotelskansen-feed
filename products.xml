@@ -17,6 +17,18 @@
       <g:custom_label_0>Övernattningspaket</g:custom_label_0>
     </item>
     <item>
+      <g:id>arets-julklapp</g:id>
+      <g:title>Årets Julklapp</g:title>
+      <g:description>En julklapp från oss till er! Boka er spaupplevelse för endast 3198:- för 2 personer i dubbelrum med ankomst mellan den ankomst 1 januari – 30 april 2027. Unna dig och din partner en romantisk weekend på Öland med vår exklusiva julklapp – spapaket för två! Njut av en mysig vistelse på vårt hotell, där [&amp;hellip;]</g:description>
+      <g:link>https://www.hotelskansen.com/paket/arets-julklapp/</g:link>
+      <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/arets-julklapp.jpg</g:image_link>
+      <g:availability>in stock</g:availability>
+      <g:price>1599 SEK</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Hotel Skansen</g:brand>
+      <g:custom_label_0>Övernattningspaket</g:custom_label_0>
+    </item>
+    <item>
       <g:id>golfpaket</g:id>
       <g:title>Golfpaket</g:title>
       <g:description>Upplev det ultimata golfpaketet på Öland med Hotel Skansen: Spela på Saxnäs GK. Inkluderar greenfee, övernattning, mousserande vin och gourmetmiddagar.</g:description>
