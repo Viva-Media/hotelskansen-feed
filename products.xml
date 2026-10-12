@@ -137,18 +137,6 @@
       <g:custom_label_0>Övernattningspaket</g:custom_label_0>
     </item>
     <item>
-      <g:id>mord-mystik</g:id>
-      <g:title>Mord &amp; Mystik</g:title>
-      <g:description>Boka Mord &amp; Mystik med övernattning på Öland. Njut av middag, mordgåta, hotellfrukost och en annorlunda upplevelse fylld av dramatik.</g:description>
-      <g:link>https://www.hotelskansen.com/paket/mord-mystik/</g:link>
-      <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/mord-mystik.jpg</g:image_link>
-      <g:availability>in stock</g:availability>
-      <g:price>1750 SEK</g:price>
-      <g:condition>new</g:condition>
-      <g:brand>Hotel Skansen</g:brand>
-      <g:custom_label_0>Övernattningspaket</g:custom_label_0>
-    </item>
-    <item>
       <g:id>morgonmys</g:id>
       <g:title>Morgonmys</g:title>
       <g:description>Starta dagen med frukost och spa på Öland. Morgonmys ger dig en rofylld förmiddag med relax, badrock och tid att bara koppla av.</g:description>
@@ -191,7 +179,7 @@
       <g:link>https://www.hotelskansen.com/paket/skansenpaket/</g:link>
       <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/skansenpaket.jpg</g:image_link>
       <g:availability>in stock</g:availability>
-      <g:price>1295 SEK</g:price>
+      <g:price>1435 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
       <g:custom_label_0>Övernattningspaket</g:custom_label_0>
@@ -275,7 +263,7 @@
       <g:link>https://www.hotelskansen.com/paket/tingshuspaket/</g:link>
       <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/tingshuspaket.jpg</g:image_link>
       <g:availability>in stock</g:availability>
-      <g:price>1510 SEK</g:price>
+      <g:price>1710 SEK</g:price>
       <g:condition>new</g:condition>
       <g:brand>Hotel Skansen</g:brand>
       <g:custom_label_0>Övernattningspaket</g:custom_label_0>
