@@ -173,18 +173,6 @@
       <g:custom_label_0>Övernattningspaket</g:custom_label_0>
     </item>
     <item>
-      <g:id>sista-minuten</g:id>
-      <g:title>Sista Minuten</g:title>
-      <g:description>Sista minuten på Skansen – guldkant till ett riktigt bra pris Unna er en spontan getaway till Öland och njut av ett extra förmånligt pris på utvalda dagar. Med vårt sista minuten-paket får ni en avkopplande övernattning, god mat och en härlig start på dagen med vår populära frukostbuffé. Nuvarande datum: 18 – 20 oktober, [&amp;hellip;]</g:description>
-      <g:link>https://www.hotelskansen.com/paket/sista-minuten/</g:link>
-      <g:image_link>https://viva-media.github.io/hotelskansen-feed/images/sista-minuten.jpg</g:image_link>
-      <g:availability>in stock</g:availability>
-      <g:price>1050 SEK</g:price>
-      <g:condition>new</g:condition>
-      <g:brand>Hotel Skansen</g:brand>
-      <g:custom_label_0>Övernattningspaket</g:custom_label_0>
-    </item>
-    <item>
       <g:id>skansenpaket</g:id>
       <g:title>Skansenpaket</g:title>
       <g:description>Upplev Skansenpaketet på Hotel Skansen. Njut av en natt med lyxigt boende, mousserande vin, trerätters middag, och Ölands charm.</g:description>

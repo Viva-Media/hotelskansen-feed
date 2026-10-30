@@ -327,29 +327,6 @@
       <currency>SEK</currency>
     </item>
     <item>
-      <destination_id>sista-minuten</destination_id>
-      <name>Sista Minuten</name>
-      <description>Sista minuten på Skansen – guldkant till ett riktigt bra pris Unna er en spontan getaway till Öland och njut av ett extra förmånligt pris på utvalda dagar. Med vårt sista minuten-paket får ni en avkopplande övernattning, god mat och en härlig start på dagen med vår populära frukostbuffé. Nuvarande datum: 18 – 20 oktober, [&amp;hellip;]</description>
-      <url>https://www.hotelskansen.com/paket/sista-minuten/</url>
-      <type>Hotel</type>
-      <types>Hotel</types>
-      <image>
-        <url>https://viva-media.github.io/hotelskansen-feed/images/sista-minuten.jpg</url>
-      </image>
-      <address format="simple">
-        <component name="addr1">Tingshusgatan 1</component>
-        <component name="city">Färjestaden</component>
-        <component name="region">Kalmar län</component>
-        <component name="country">SE</component>
-        <component name="postal_code">386 30</component>
-      </address>
-      <neighborhood>Öland</neighborhood>
-      <latitude>56.64897</latitude>
-      <longitude>16.46713</longitude>
-      <price>1050 SEK</price>
-      <currency>SEK</currency>
-    </item>
-    <item>
       <destination_id>skansenpaket</destination_id>
       <name>Skansenpaket</name>
       <description>Upplev Skansenpaketet på Hotel Skansen. Njut av en natt med lyxigt boende, mousserande vin, trerätters middag, och Ölands charm.</description>
